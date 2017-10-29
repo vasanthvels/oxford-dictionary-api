@@ -1,0 +1,28 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "oxford dictionay api",
+  "version": "0.0.1",
+  "description": "oxford dictionary api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "request": "^2.83.0",
+    "ssl-root-cas": "^1.2.4"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/vasanthkumarvelu/oxford-dictionary-api"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
