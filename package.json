@@ -2,9 +2,9 @@
   "//1": "describes your app and its dependencies",
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
-  "name": "oxford-dictionary-api",
+  "name": "oxford-dictionary-api-HybridAppZone",
   "version": "0.0.1",
-  "description": "oxford dictionary api",
+  "description": "oxford dictionary api-HybridAppZone",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -18,7 +18,7 @@
     "node": "8.x"
   },
   "repository": {
-    "url": "https://github.com/vasanthkumarvelu/oxford-dictionary-api"
+    "url": "https://github.com/vasanthvels/oxford-dictionary-api"
   },
   "license": "MIT",
   "keywords": [
