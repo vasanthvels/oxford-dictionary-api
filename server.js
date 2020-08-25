@@ -1,5 +1,4 @@
 /*Oxford Dictionary API - created by www.hybridappzone.com*/
-
 const express = require("express");
 const axios = require("axios");
 const app = express();
@@ -20,9 +19,10 @@ app.get('/', function (req, res) {
 });
 
 app.post('/search', (req, res) => {
+  const lang = 'en-us';
   const input = req.body.oxford;
   try {
-    instance.get(`/api/v2/entries/en-us/${input}`)
+    instance.get(`/api/v2/entries/${lang}/${input}`)
       .then(result => {
         const data = {
           "definition": result.data.results[0].lexicalEntries[0].entries[0].senses[0].definitions[0],
